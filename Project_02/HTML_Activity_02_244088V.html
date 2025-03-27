@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Application</title>
+</head>
+<body>
+    
+  <h1>Application Form</h1>
+
+  
+    <form>
+            <div class="form">
+               <label for="Name">Name</label>
+               <input type="text" id="Name" name="Name" >
+           </div>
+
+          
+           <div class="form">
+                <label for="Adress">Adress</label>
+                <textarea name="Adress" id="Adress"></textarea>
+           </div>        
+
+           <div class="form">
+              <label for="Status">Status</label> 
+              <select name="Status" id="Status">
+               <option value="Select_Status">Select Status</option>
+                <option value="Employed">Employed</option>
+                <option value="Unemployed">Unemployed</option>
+                <option value="Student">Student</option>
+              </select>
+
+           </div>
+
+           <div class="form">
+             1.Do you have an Email Adress?
+             <br><label for="Yes">Yes</label>
+             <input type="radio" id="Yes" name="Email" value="Yes">
+              &nbsp;&nbsp;
+             <label for="No">No</label>
+             <input type="radio" id="No" name="Email" value="No">
+           </div>
+
+           <div class="form">
+             2.Do you think that the online lectures are efficient?
+
+             <br><input type="radio" id="StronglyAgree" name="q2" value="Strongly Agree">
+             <label for="StronglyAgree">Strongly Agree</label>
+             
+             <input type="radio" id="Agree" name="q2" value="Agree">
+             <label for="Agree">Agree</label>
+
+             <input type="radio" id="Neutral" name="q2" value="Neutral">
+             <label for="Neutral">Neutral</label>
+
+             <input type="radio" id="Disagree" name="q2" value="Disagree">
+             <label for="Disagree">Disagree</label>
+
+             <input type="radio" id="StronglyDisagree" name="q2" value="StronglyDisagree">
+             <label for="StronglyDisagree">StronglyDisagree</label>
+
+           </div>
+
+           <div class="form">
+             Select the subjects that you preferred.
+             <div class="subjects">
+              <div class="sub">
+                 <label for="sub1"><input type="checkbox" id="sub1" name="sub1" value="ComputerProgramming">Computer Programming</label> 
+              </div>
+ 
+               <div class="sub">
+                 <label for="sub2"><input type="checkbox" id="sub2" name="sub2" value="ComputerGraphics">Computer Graphics</label>
+               </div>
+         
+               <div class="sub">
+                <label for="sub3"><input type="checkbox" id="sub3" name="sub3" value="Database Management">Database Management</label>
+               </div>
+           </div>
+           </div>
+           <div class="form">
+            <label for="ImageUpload">Upload your Photograph here.</label><br>
+            <input type="file" id="ImageUpload" name="ImageUpload" accept=".jpg, .jpeg, .png ">
+           <p> please use .jpg/.jpeg/.png format</p>
+           </div>
+
+           <div class="form">
+               <input type="submit" id="Savedata" name="Savedata" value="Save Data">
+           </div>
+
+
+
+    </form> 
+
+  
+
+</body>
+</html>

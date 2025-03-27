@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+body{
+    background-color:whitesmoke;
+
+}
+
+header{
+    display: flex;
+    background-color: #C07373;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px;
+    height: 150px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.name{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+#list{
+    list-style-type: none;
+    display: flex;
+    gap: 10px
+    ;
+}
+
+#list li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+}
+
+#list li a:hover{
+    background-color: #a55f5f;
+    border-radius: 10px;
+}
+
+#main{
+    padding: 30px;
+    min-height: 100vh;
+}
+
+
+#img1{
+    float: left;
+    width: 50%;
+    margin: 20px;
+    height: 500px;
+
+}
+
+#img2{
+     float: right;
+    margin:20px;
+    width: auto;
+    height: 300px    
+}
+
+#img3{
+
+    margin: 20px;
+    width: auto;
+    height: 300px ;
+}
+.paragraph{
+    padding-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+#academic{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+dl,#academic{
+ padding-left: 100px;
+ padding-right: 100px;
+ text-align: left;
+
+}
+
+.course_name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text{
+    font-style: italic;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#Events{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 125px;
+    padding-right: 100px;
+}
+
+ol{
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #583d3d;
+    width: 100%;
+    color: antiquewhite;
+    height: 80px;
+    margin-top: 50px;
+}
+
+footer a,p{
+    padding: 5px;
+}
+footer a{
+    color: antiquewhite;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+footer a:hover{
+    color: rgb(192, 172, 144);
+}

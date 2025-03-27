@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/delivery-man.png" type="image/x-icon">
+</head>
+<body>
+    
+     <header>
+          <h1><span class="emoji1">&#x1F4E6;</span>Product Order Form</h1>
+     </header>
+   <form>
+       <div class="form">
+            <div class="name">
+               <label for="Name">Name :</label>
+               <input type="text" id="Name" name="Name">
+          </div>
+
+          <div class="email">
+             <label for="Email">Email :</label>
+             <input type="email" id="Email" name="Email">
+          </div>
+
+          <div class="Adress">
+              <label for="Adress">Adress :</label>
+             <textarea name="Adress" id="Adress"></textarea>
+          </div>
+
+          <div class="PostCode">
+              <label for="PostCode">Postcode:</label>
+             <input type="text" id="PostCode" name="PostCode">
+          </div>
+
+          <table class="table">
+              <tr>
+                 <th>Product</th>
+                 <th>Part Number</th>
+                 <th>Quantity</th>
+                 <th>Unit Price</th>
+                 <th>Sub Total</th>
+             </tr>
+            
+             <tr>
+                  <td>Product 1</td>
+                  <td>LB100</td>
+                  <td><input type="number" style="width: 40px;" min="0" max="999" id="p1"></td>
+                  <td>R5</td>
+                  <td>R</td>
+             </tr>
+
+             <tr>
+                 <td>Product 2</td>
+                 <td>LB200</td>
+                 <td><input type="number" style="width: 40px;" min="0" max="999" id="p2"></td>
+                 <td>R10</td>
+                 <td>R</td>
+             </tr>
+             
+             <tr>
+                 <td>Product 3</td>
+                 <td>LB300</td>
+                 <td><input type="number" style="width: 40px;" min="0" max="999" id="p3"></td>
+                 <td>R15</td>
+                 <td>R</td>
+             </tr>
+            
+             <tr>
+                 <td>Product 4</td>
+                 <td>LB400</td>
+                 <td><input type="number" style="width: 40px;" min="0" max="999" id="p4"></td>
+                 <td>R20</td>
+                 <td>R</td>
+             </tr>
+            
+             <tr>
+                 <td>Product 5</td>
+                 <td>LB500</td>
+                 <td><input type="number" style="width: 40px;" min="0" max="999" id="p5"></td>
+                 <td>R30</td>
+                 <td>R</td>
+             </tr>
+
+             <tr>
+                 <td colspan="4" class="totalcell">Total</td>
+                 <td>R</td>
+             </tr>
+          </table>
+           
+          
+              <span><span class="emoji2">&#x1F4B3;</span><u>Credit Card Details</u></span>
+              <span>Card Type:</span>
+       
+
+          <div class="card">
+                 <div class="card_type">
+                        <div>
+                             <input type="radio" id="Mastercard" name="CardType" value="Mastercard">
+                             <label for="Mastercard">Master Card</label>
+                        </div>
+                        <div>
+                              <input type="radio" id="Visa" name="CardType" value="Visa">
+                              <label for="Visa">Visa</label>
+                       </div>
+                        <div>
+                              <input type="radio" id="AmericanExpress" name="CardType" value="AmericanExpress">
+                              <label for="AmericanExpress">American Express</label>
+                       </div>
+                   </div>       
+                  
+                        <div class="card_details">
+                            <div>
+                                  <label for="CardNumber">Card Number :</label> 
+                                  <input type="text" id="CardNumber" name="CardNumber">
+                           </div>
+
+                            <div>
+                                  <label for="expirydate">expiry date :</label>
+                                  <input type="text" id="expirydate" name="expirydate" placeholder="mm/yy">
+                           </div>
+                        </div>
+            </div>
+                 <div class="deladdress">
+                      <label for="DAdress">Delivery Address :</label>
+                      <textarea name="DAdress" id="DAdress"></textarea>
+                 </div>
+
+          <div class="btn">
+                 <div>
+                       <input type="button" value="Send order" id="SendOrder">
+                 </div>
+
+                 <div>
+                       <input type="button" value="Clear form" id="ClearForm">
+                 </div>
+           </div>
+       </div>
+   </form>
+
+</body>
+</html>
