@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Tourism</title>
+    <link rel="icon" href="images/favicon.ico" type="x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header id="home">
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4ldGML1veG4" target="_blank">Wildlife Streaming</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a>Tourism Hotilne:1912</a></li>
+                
+            </ul>
+        </nav>
+    </header>    
+        <div class="navBar2">
+            <ul>
+                <li id="image"><a href="main.html"><img src="images/sri-lanka.png" alt="Sri Lanka tourism logo"></a></li>
+                <li class="dropDown hideOnMobile">
+                    <button id="dropDownBttn"> What to do<span class="material-symbols-outlined bttn">
+                        arrow_drop_down
+                        </span></button>
+                    <div class="container" id="dropDownMenu">
+                      <div id="box1"><p class="text">Sun & Beach</p></div>
+                      <div id="box2"><p class="text">Sri Lankan Heritage</p></div>
+                      <div id="box3"><p class="text">Adventure & Sports</p></div>
+                    </div>
+                  </li>                  
+                <li class="hideOnMobile"><a href="events.html">Upcoming Events</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li onclick=showSidebar() class="menuicon"><a href="#"><span class="material-symbols-outlined">
+                    menu
+                    </span></a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li onclick=hideSidebar()><a href=""><span class="material-symbols-outlined" style="height: 26px; width:26px;">
+                    close</span></a></li>
+                <li><a href="https://www.youtube.com/watch?v=4ldGML1veG4" target="_blank">Wildlife Streaming</a></li>  
+                <li><a href="contact.html">Contact Us</a></li>               
+                <li><a href="events.html">Upcoming Events</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a>Tourism Hotilne:1912</a></li>
+            </ul>
+        </div>
+    
+    
+
+    <main>
+        <div id="overlay">
+        <h1>AN ISLAND ESCAPE
+         <br>
+         AWAITS YOU
+        </h1>
+       </div>
+    </main>
+
+    <section id="flexbox-1">
+        <div id="box-1">
+            <div class="text-wrapper">
+                <div class="foreground-text">Welcome To Sri Lanka</div>
+            </div>
+        </div>  
+
+        <div class="sub-text">
+            <div class="dd">
+                <p>
+                    See what's waiting for you on your next island getaway. <br>
+                    Savour the unique experiences this island treasure has to offer.     
+                </p>
+            </div>
+        </div>
+     
+
+        <div id="box-2">
+            <div class="gallery-img">
+                <img src="images/sri-lankan-visa.png" alt="tourist visa process">
+                <p>Update on Sri Lankan Tourist Visa Process</p>
+            </div>
+            <div class="gallery-img">
+                <img src="images/Sri_Lanka_Booking.com.jpg" alt="Sigiriya">
+                <p>Sigiriya, Sri Lanka - The World's Most Welcoming City for 2025!</p>
+            </div>
+            <div class="gallery-img">
+                <img src="images/banner_Golden_Paradise_Visa.jpg" alt="Golden Paradise Visa">
+                <p>Golden Paradise Visa - Department of Immigration and Emigration, Sri Lanka</p>
+            </div>
+        </div>
+  </section>
+
+  <section id="grid-1">
+
+    <div id="i1">
+        <img src="images/wild.jpg" alt="people watching elephants in a safari">
+        <div>
+            <img src="images/leaf.svg" class="hideOnMobile">
+            <p>WILD</p>   
+        </div>
+    </div>
+
+    <div id="i2">
+        <img src="images/thrills.jpg" alt="a group of people rafting">
+        <div >
+            <img src="images/adventure.svg">
+            <p>THRILLS</p>
+        </div>
+    </div>
+
+    <div id="i3">
+        <img src="images/festive.webp" alt="traditional wes dancing crew at Esala perahera,Kandy">
+        <div>
+            <img src="images/culture.svg" alt="">
+            <p>FESTIVE</p>
+        </div>
+    </div>
+
+    <div id="i4">
+        <img src="images/lord buddha.jpg" alt="Ancient Statue of Lord Buddha">
+        <div>
+            <img src="images/lord_buddha.svg">
+            <p>HERITAGE</p>
+        </div>
+    </div>
+
+    <div id="i5">
+        <img src="images/pristine.jpg" alt="sri lankan Fishermen">
+        <div>
+            <img src="images/beach.svg">
+            <p>PRISTINE</p>
+        </div>
+    </div>
+
+    <div id="i6">
+        <img src="images/bliss.jpg" alt="A women in a sri lankan traditional spa">
+        <div>
+            <img src="images/wellness.svg">
+            <p>BLISS</p>
+        </div>
+    </div>
+
+    <div id="i7">
+        <img src="images/essence.jpg" alt="Sri lankan Spices">
+        <div>
+            <img src="images/food.svg">
+            ESSENCE
+        </div>
+    </div>
+
+    <div id="i8">
+        <img src="images/scenic.webp" alt="Sri lankan nature">
+        <div>
+            <img src="images/luxury.png">
+            <p>SCENIC</p>
+        </div>
+    </div>
+
+  </section>
+
+
+
+    <section id="events" >
+        <div id="eventText">
+            Upcoming Events & Festivals
+            <a href="events.html">
+                <button>
+                    SEE ALL EVENTS
+                </button>
+            </a>
+        </div>
+
+        <div class="slideContainer">
+            <div class="slide">
+                <img src="images/event1.png">
+            </div>     
+            <div class="slide">
+                <img src="images/event2.png">
+            </div>     
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+
+          <div class="footer-section">
+            <ul>
+                <li><img src="images/footer-logo.png" alt=""></li>
+                <li class="center">Toursim Hotline
+                    <ul><li class="center">1912</li></ul>
+                </li>
+                <li class="center">Ambulance Service
+                    <ul><li class="center">1990</li></ul></li>
+            </ul>
+          </div>  
+
+          <div class="footer-section">
+            <h4>Other sites</h4>
+            <ul>
+              <li><a href="https://www.sltda.gov.lk">Sri Lanka Tourism Development Authority</a></li>
+              <li><a href="https://meetinsrilanka.com/">Sri Lanka Tourism Convention Bureau</a></li>
+              <li><a href="https://www.slithm.edu.lk/">Sri Lanka Institute of Tourism & Hotel Management</a></li>
+              <li><a href="https://www.tourismmin.gov.lk/">Ministry of Tourism</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>No. 80, Galle Road, Colombo 03</p>
+            <p>Phone: +94 112 426800</p>
+            <p>Email: info@srilanka.travel</p>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/tourismsrilanka.gov.lk" ><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/tourismlk"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/destination_srilanka/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 All Rights Reserved by Sri Lanka Tourism Promotion Bureau</p>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+        </div>
+      </footer>
+      
+
+
+</body>
+</html>

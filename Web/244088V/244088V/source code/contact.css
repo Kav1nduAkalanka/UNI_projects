@@ -1,0 +1,94 @@
+#contact img{
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+#contactBox{
+    box-sizing: border-box;
+    height:50vh;
+    padding: 1px;
+    padding-left: 3px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    object-fit: cover;
+    margin-top: 5vh;
+    background-image: url(images/contact/hector-john-periquin-pRxm8cc953U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+#contactBox div{
+    background-color: rgb(240, 248, 255);
+    width: 35%;
+    margin: 10px;
+    padding: 30px;
+    height:  auto;
+}
+
+#contactBox h1{
+    font-family: sans-serif;
+    color: #0078d7;
+    font-size: 3rem;
+}
+
+#contactBox p address{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+#contactBox #small{
+    font-size: 0.7rem;
+}
+
+
+@media (max-width: 768px) {
+    #contact img {
+        max-height: 30vh;
+    }
+    
+    #contactBox {
+        height: auto; 
+        min-height: 60vh; 
+        margin-left: 5vw; 
+        margin-right: 5vw;
+        margin-top: 3vh;
+        padding: 0;
+        background-position: top center;
+    }
+    
+    #contactBox div {
+        width: 85%; 
+        margin: 20px auto; 
+        padding: 20px;
+    }
+    
+    #contactBox h1 {
+        font-size: 2rem; 
+    }
+    
+    #contactBox p address {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #contactBox {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    
+    #contactBox div {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    #contactBox h1 {
+        font-size: 1.8rem;
+    }
+}
