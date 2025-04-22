@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Tourism</title>
+    <link rel="icon" href="images/favicon.ico" type="x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="contact.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header id="home">
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4ldGML1veG4" target="_blank">Wildlife Streaming</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a>Tourism Hotilne:1912</a></li>
+                
+            </ul>
+        </nav>
+    </header>    
+        <div class="navBar2">
+            <ul>
+                <li id="image"><a href="main.html"><img src="images/sri-lanka.png" alt="Sri Lanka tourism logo"></a></li>
+                <li class="dropDown hideOnMobile">
+                    <button id="dropDownBttn"> What to do<span class="material-symbols-outlined bttn">
+                        arrow_drop_down
+                        </span></button>
+                    <div class="container" id="dropDownMenu">
+                      <div id="box1"><p class="text">Sun & Beach</p></div>
+                      <div id="box2"><p class="text">Sri Lankan Heritage</p></div>
+                      <div id="box3"><p class="text">Adventure & Sports</p></div>
+                    </div>
+                  </li>                  
+                <li class="hideOnMobile"><a href="events.html">Upcoming Events</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li onclick=showSidebar()><a href="#"><span class="material-symbols-outlined">
+                    menu
+                    </span></a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li onclick=hideSidebar()><a href=""><span class="material-symbols-outlined" style="height: 26px; width:26px;">
+                    close</span></a></li>
+                <li><a href="https://www.youtube.com/watch?v=4ldGML1veG4" target="_blank">Wildlife Streaming</a></li>  
+                <li><a href="contact.html">Contact Us</a></li>               
+                <li><a href="events.html">Upcoming Events</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a>Tourism Hotilne:1912</a></li>
+            </ul>
+        </div>
+    
+
+        <main id="contact">
+          <div>
+                <img src="images/contact/banner.jpg" alt="Tea Plantation Nuwara Eliya">
+          </div>
+        </main>
+
+        <section id="contactBox">
+            <div>
+                    <h1>Dial 1912</h1>
+                    <p id="small"> DIAL 1912 from any phone within Sri Lanka to
+                        access tourism Information .</p>
+                    <p>Sri Lanka Tourism Head Office</p>
+                    <p>+94 112426900</p>
+                    <p>+94 112 440001 / 2426984</p>
+                    <address>No. 80, Galle Road, Colombo 03, Sri Lanka.</address>  
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-container">
+    
+              <div class="footer-section">
+                <ul>
+                    <li><img src="images/footer-logo.png" alt=""></li>
+                    <li class="center">Toursim Hotline
+                        <ul><li class="center">1912</li></ul>
+                    </li>
+                    <li class="center">Ambulance Service
+                        <ul><li class="center">1990</li></ul></li>
+                </ul>
+              </div>  
+    
+              <div class="footer-section">
+                <h4>Other sites</h4>
+                <ul>
+                  <li><a href="https://www.sltda.gov.lk">Sri Lanka Tourism Development Authority</a></li>
+                  <li><a href="https://meetinsrilanka.com/">Sri Lanka Tourism Convention Bureau</a></li>
+                  <li><a href="https://www.slithm.edu.lk/">Sri Lanka Institute of Tourism & Hotel Management</a></li>
+                  <li><a href="https://www.tourismmin.gov.lk/">Ministry of Tourism</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>No. 80, Galle Road, Colombo 03</p>
+                <p>Phone: +94 112 426800</p>
+                <p>Email: info@srilanka.travel</p>
+              </div>
+              <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="https://www.facebook.com/tourismsrilanka.gov.lk" ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/tourismlk"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/destination_srilanka/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>© 2025 All Rights Reserved by Sri Lanka Tourism Promotion Bureau</p>
+              <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+            </div>
+          </footer>
+          
+          
+</body>
+</html>          
