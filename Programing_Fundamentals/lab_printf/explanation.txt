@@ -1,0 +1,5 @@
+
+1)printf("Using precision for integers\n");
+  printf("\t%.4d\n\t%.9d\n\n", i, i);
+
+explanation -- 
