@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void printBox(int w,int h);
-int main(){
+int main(void){
 
     printBox(8,5);
 

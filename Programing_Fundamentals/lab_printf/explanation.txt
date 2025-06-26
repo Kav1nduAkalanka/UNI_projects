@@ -2,4 +2,16 @@
 1)printf("Using precision for integers\n");
   printf("\t%.4d\n\t%.9d\n\n", i, i);
 
-explanation -- 
+explanation -- %.4d means an integer with minimum of 4 digits.For an example if we print a number like 123 it will add a zero to the front. %.9d means an integer with minimum of 9 digits.
+
+
+2)Using precision for floating-point numbers
+	printf("\t%.3f\n\t%.3e\n\t%.3g\n\n", f, f, f);
+	
+ explanation -- %.3f means a floating point number that have three digits after the decimal point.for an example, 12.236 ---> 12.237
+ 		%.3e means  scientific notation with 3 digits after the decimal point.
+ 	
+
+3)  printf("\t%.11s\n", s);
+
+explanation -- .11s means at most 11 characters will be printed.in the array there are 15 characters.so it only prints the first 11 characters.
