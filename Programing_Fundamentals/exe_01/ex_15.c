@@ -4,7 +4,7 @@ int main(){
     int unit;
     printf("enter the number of units: ");
     scanf("%d",&unit);
-    double a,b,c,d;
+    double a=0,b=0,c=0,d=0;
 
     if(unit>50){
        a=unit*0.5;
